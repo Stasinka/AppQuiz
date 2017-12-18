@@ -113,7 +113,7 @@ public class Playing extends AppCompatActivity implements View.OnClickListener{
             }
             else
             {
-                //if is image
+                //if is text question
                 question_text.setText(Common.questionList.get(index).getQuestion());
                 question_image.setVisibility(View.INVISIBLE);
                 question_text.setVisibility(View.VISIBLE);
