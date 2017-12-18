@@ -50,10 +50,12 @@ public class Playing extends AppCompatActivity implements View.OnClickListener{
         btnC=(Button)findViewById(R.id.btnAnswerC);
         btnD=(Button)findViewById(R.id.btnAnswerD);
 
-        btnA.setOnClickListener(this);
-        btnB.setOnClickListener(this);
+
         btnC.setOnClickListener(this);
         btnD.setOnClickListener(this);
+        btnA.setOnClickListener(this);
+        btnB.setOnClickListener(this);
+
 
 
     }
